@@ -1,0 +1,10 @@
+/*liタグの黒点を消す*/
+li{
+  list-style: none;
+  float: left;
+}
+
+/*右の空白を消す*/
+header-name{
+  float: left;
+}
