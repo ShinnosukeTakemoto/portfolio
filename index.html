@@ -4,27 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/destyle.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <title>Takemoto's portfolio</title>
 </head>
 <body>
-  <div class="header">
-    <div class="header-name">Takemoto Shinnosuke</div>
-    <div class="header-list">
-      <ul>
-        自己紹介
-      </ul>
-      <ul>
-        作ったもの
-      </ul>
+  <header class="site-header">
+    <div class="wrapper site-header__wrapper">
+      <a href="#" class="name">Takemoto Shinnosuke</a>
+      <nav class="nav">
+        <button class="nav__toggle" aria-expanded="false" type="button">
+          menu
+        </button>
+        <ul class="nav__wrapper">
+          <li class="nav__item"><a href="#1-1">自己紹介</a></li>
+          <li class="nav__item"><a href="#1-2">作ったもの</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header End -->
+  <div class="main">
+    <div class="body">
+      <h1>Top</h1>
+      <h2 id="1-1">自己紹介</h2>
+      <p>筑波大学情報学群情報メディア創成学類3年武本慎ノ介です。</p>
+
+      <h2 id="1-2">作ったもの</h2>
     </div>
   </div>
-  <div class="main">
-
-  </div>
-  <div class="footer">
-
-  </div>
-  <h1></h1>
+  <footer>
+    © 2022 Takemoto Shinnosuke
+  </footer>
 </body>
 </html>
